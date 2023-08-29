@@ -1,0 +1,39 @@
+:root {
+    --color--titles: #2E2F42;
+}
+
+/*Обнуление*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: var(--color--titles);
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*--------------------*/
