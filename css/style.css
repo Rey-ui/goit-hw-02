@@ -63,21 +63,34 @@ ul li {
 
 .header__contacs {}
 
-.list-header__item {}
+.list-header__item:hover {
+    color: #404bbf;
+}
+
+.list-header__item:focus {
+    color: #404bbf;
+}
 
 .list-header__link {
     color: var(--color--titles);
     transition: all 0.4s;
 }
 
-.list-header__link:hover {
+.item-1:hover {
+    color: #404bbf;
+}
+
+.item-1:focus {
+    color: #404bbf;
+}
+
+/*.list-header__link:hover {
     color: #404bbf;
 }
 
 .list-header__link:focus {
     color: #404bbf;
-}
-
+}*/
 
 .contact {}
 
@@ -119,7 +132,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: var(--c--brend);
+    background-color: #4D5AE5;
     font-size: 16px;
     color: #fff;
     transition: all 0.4s;
