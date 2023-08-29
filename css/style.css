@@ -63,34 +63,21 @@ ul li {
 
 .header__contacs {}
 
-.list-header__item:hover {
-    color: #404bbf;
-}
+.list-header__item:hover {}
 
-.list-header__item:focus {
-    color: #404bbf;
-}
+.list-header__item:focus {}
 
 .list-header__link {
     color: var(--color--titles);
-    transition: all 0.4s;
 }
 
-.item-1:hover {
-    color: #404bbf;
-}
-
-.item-1:focus {
-    color: #404bbf;
-}
-
-/*.list-header__link:hover {
+.list-header__link:hover {
     color: #404bbf;
 }
 
 .list-header__link:focus {
     color: #404bbf;
-}*/
+}
 
 .contact {}
 
@@ -103,7 +90,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color--text);
-    transition: all 0.3s;
 }
 
 .header__contact:hover,
@@ -135,7 +121,6 @@ address {
     background-color: #4D5AE5;
     font-size: 16px;
     color: #fff;
-    transition: all 0.4s;
 }
 
 .content-hero__button:hover {
