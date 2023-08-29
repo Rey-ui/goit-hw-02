@@ -70,11 +70,13 @@ ul li {
     transition: all 0.4s;
 }
 
-.list-header__link:hover,
-.list-header__link:focus {
+.list-header__link:hover {
     color: #404bbf;
 }
 
+.list-header__link:focus {
+    color: #404bbf;
+}
 
 
 .contact {}
@@ -123,7 +125,10 @@ address {
     transition: all 0.4s;
 }
 
-.content-hero__button:hover,
+.content-hero__button:hover {
+    background-color: #404BBF;
+}
+
 .content-hero__button:focus {
     background-color: #404BBF;
 }
@@ -223,6 +228,7 @@ address {
 }
 
 .footer__link {
+    text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
