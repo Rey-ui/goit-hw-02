@@ -40,7 +40,6 @@ ul li {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    text-transform: uppercase;
     letter-spacing: 0.03em
 }
 
@@ -50,6 +49,7 @@ ul li {
 
 .header__link {
     color: #4d5ae5;
+    text-transform: uppercase;
 }
 
 .header__list {
@@ -73,7 +73,6 @@ ul li {
 .list-header__link:hover,
 .list-header__link:focus {
     color: #404bbf;
-    text-decoration: underline;
 }
 
 
@@ -114,6 +113,7 @@ address {
 }
 
 .content-hero__button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -134,6 +134,7 @@ address {
 .advantages-conten__title {}
 
 .title {
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -155,12 +156,15 @@ address {
 }
 
 .items-content__text {
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 /*=====================================*/
-.content__team {}
+.content__team {
+    background-color: #F4F4FD;
+}
 
 .team-content {}
 
@@ -168,7 +172,9 @@ address {
 
 .team-content__items {}
 
-.team-content-items__item {}
+.team-content-items__item {
+    background-color: #FFFFFF;
+}
 
 .team-content-items__title {
     font-size: 20px;
@@ -179,8 +185,9 @@ address {
 }
 
 .team-content-items__text {
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 /*=====================================*/
@@ -205,8 +212,9 @@ address {
 }
 
 .item-portfolio__subtitel {
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 /*=====================================*/
